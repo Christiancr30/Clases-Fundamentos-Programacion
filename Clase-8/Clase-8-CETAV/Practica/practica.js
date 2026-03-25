@@ -29,7 +29,7 @@ while(iteraciones > 0){
     } else{
         console.log ("El numero", iteraciones, "no es multiplo de ninguno")}
        
-    iteraciones = iteraciones - 1;
+    iteraciones = iteraciones - 1; 
     }
 
 
