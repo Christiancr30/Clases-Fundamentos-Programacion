@@ -1,5 +1,4 @@
 const cantidadDeClientes = 25;
-
 let cliente = 1;
 let totalSegundos = 0;
 
@@ -12,13 +11,11 @@ while (cliente <= cantidadDeClientes) {
     } else {
         segundosCliente = 20;
     }
-
     if (cliente % 10 === 0) {
         segundosCliente += (18 * 60) + 11;
     } else if (cliente % 5 === 0) {
         segundosCliente += (37 * 60);
     }
-
     //Sumamos al total
     totalSegundos += segundosCliente;
     cliente++;
